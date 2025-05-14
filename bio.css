@@ -1,0 +1,186 @@
+/* bio.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* .navbar {
+  background-color: #222;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+.intro {
+  text-align: center;
+  margin: 30px 0;
+}
+
+
+body {
+    background-color: rgb(33, 31, 31);
+}
+
+h2{
+    text-align: center;
+    color: #00ffcc;
+}
+h1 {
+    text-align: center;
+    color: #00ffcc;
+}
+
+p {
+    text-align: center;
+    color: #00ffcc;
+}
+h5 {
+  text-align: center;
+  color: #00ffcc;
+  font-size: larger ;
+}
+
+.biodata-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.profile-info th,
+.profile-info td {
+  padding: 10px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.profile-info th {
+  width: 160px;
+  color: #00ffcc;
+  padding-right: 10px;
+}
+
+.profile-info td {
+  display: flex;
+  align-items: baseline;
+  color: #00d5ff;
+}
+
+/* Titik dua di tengah */
+.colon {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  margin-right: 10px;
+  color: #01d0ff;
+}
+
+/* Gambar profil */
+.profile-image {
+  flex-shrink: 0;
+}
+
+.profile-image img {
+  width: 160px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #00ffcc;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+}
+
+
+
+.tabel-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.tabel-section h2 {
+  color: #00ffcc;
+  margin-top: 30px;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #00ffcc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.tabel-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.tabel-section table td {
+  border: 1px solid #00ffcc;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.tabel-section table tr:nth-child(even) {
+  background-color: rgba(0, 255, 204, 0.05);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 40px;
+}
+
+/* IKON SOSIAL MEDIA */
+.social-icons {
+  display: flex;
+  justify-content: center;  /* Pusatkan ikon secara horizontal */
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.social-icons a {
+  color: #131faa;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0073e6; /* Warna saat hover */
+}
